@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="1" name="com.studentapp.junit.positiveandnegative.FirstserenityTest" skipped="2" tests="6" time="11.64" timestamp="2020-03-89 11:53:52"><testcase classname="com.studentapp.junit.positiveandnegative.FirstserenityTest" name="Pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.positiveandnegative.FirstserenityTest" name="Compromised test"><error message="deriee\werewiruw (The system cannot find the path specified)" type="java.io.FileNotFoundException">deriee\werewiruw (The system cannot find the path specified)</error><system-err>deriee\werewiruw (The system cannot find the path specified)&#13;
+com.studentapp.junit.positiveandnegative.FirstserenityTest.CompromisedTest(FirstserenityTest.java:66)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.positiveandnegative.FirstserenityTest" name="Get allstudents"/><testcase classname="com.studentapp.junit.positiveandnegative.FirstserenityTest" name="Ignoredtest"><skipped/></testcase><testcase classname="com.studentapp.junit.positiveandnegative.FirstserenityTest" name="Get student with id001"><failure message="1 expectation failed.&#10;Expected status code &lt;234&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;234&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;234&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.positiveandnegative.FirstserenityTest.getStudentWithID001(FirstserenityTest.java:35)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.positiveandnegative.FirstserenityTest" name="Get student with id003"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.positiveandnegative.FirstserenityTest.getStudentWithID003(FirstserenityTest.java:50)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase></testsuite>
