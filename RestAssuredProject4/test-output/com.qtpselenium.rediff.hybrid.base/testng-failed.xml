@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.qtpselenium.rediff.hybrid.base]">
+  <test name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite">
+    <classes>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.LoginTest"/>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest"/>
+    </classes>
+  </test> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite -->
+  <test name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite(failed)">
+    <classes>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.LoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="quit"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.LoginTest -->
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest">
+        <methods>
+          <include name="loginTest1"/>
+          <include name="createPortFolioTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest -->
+    </classes>
+  </test> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite(failed) -->
+</suite> <!-- Failed suite [com.qtpselenium.rediff.hybrid.base] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- To comment a line in xml use as below -->
+<!-- <suite name = "Testbase" parallel="tests" > </suite>-->
+<suite name = "Testbase" preserve-order="true" >
+<test name="com.webcentral.test.automation.webcentraldata" preserve-order="true">
+<classes>
+<class name = "com.RestAssured.GetAllStudentsTest"/>
+</classes>
+</test>
+</suite>

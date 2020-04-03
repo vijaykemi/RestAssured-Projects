@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testbase]">
+  <test name="com.webcentral.test.automation.webcentraldata">
+    <classes>
+      <class name="com.RestAssured.GetAllStudentsTest"/>
+    </classes>
+  </test> <!-- com.webcentral.test.automation.webcentraldata -->
+</suite> <!-- Failed suite [Testbase] -->
